@@ -28,6 +28,10 @@ API Key:  <generated key>
 Model:    qwen-selected
 ```
 
+![p1](pic/p1.png)
+
+![p1](pic/p2.png)
+
 ## API
 
 ```text
