@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "esbuild src/gateway/main.ts --bundle --outfile=dist/qwen-gateway.js --platform=node --format=cjs --target=node20 --external:playwright --minify",
+    "start": "node dist/qwen-gateway.js serve",
+    "login": "node dist/qwen-gateway.js login",
+    "status": "node dist/qwen-gateway.js status",
+    "logout": "node dist/qwen-gateway.js logout"
+  },
+  "dependencies": {
+    "playwright": "1.60.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}
